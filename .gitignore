@@ -1,0 +1,24 @@
+# ignor pycache
+__pycache__/
+*.py[cod]
+*pyc
+
+# ignore checkpoints
+.ipynb_checkpoints
+*.pth
+*.xmodel
+
+# ignore data
+#data/
+*.jpg
+*.png
+*.mp4
+
+# ignore output
+YOLOX_outputs/
+#compilation_output/
+#converted_qat_results/
+archive/
+events.out*
+# ignore =*
+=*
